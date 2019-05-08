@@ -1,7 +1,8 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.losbksoficial.com" resolutions="1x" timestamp="1557341345602">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.losbksoficial.com" resolutions="1x" timestamp="1557356558345">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3874318678" ref="index"/>
+    <file name="index.css" crc="299145480" ref="index"/>
+    <file name="nomq_index.css" crc="4282745098" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -15,29 +16,54 @@
     <file name="musewpslideshow.js" crc="4041717617" ref="index"/>
     <file name="jquery.museoverlay.js" crc="36492500" ref="index"/>
     <file name="touchswipe.js" crc="404375771" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="4065090679" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="4146931122" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="u117-4.png" crc="29596077" ref="index"/>
-    <file name="personamaslogo2.png" crc="4056850422" seo="true" ref="index"/>
-    <file name="u136-4.png" crc="254596450" ref="index"/>
+    <file name="u117-4.png" crc="4125685067" ref="index"/>
+    <file name="personamaslogo2.png" crc="3851971663" seo="true" ref="index"/>
     <file name="javierestudio.jpg" crc="311941049" ref="index"/>
-    <file name="logobksresptrans.png" crc="123252519" seo="true" ref="index"/>
-    <file name="u405-4.png" crc="101367767" ref="index"/>
-    <file name="u408-31.png" crc="3987174881" ref="index"/>
+    <file name="u408-31.png" crc="3999616401" ref="index"/>
     <file name="losbks04.jpg" crc="4095762880" ref="index"/>
-    <file name="u451-4.png" crc="7838216" ref="index"/>
-    <file name="u452-4.png" crc="398831278" ref="index"/>
-    <file name="img_20181212_205416-crop-u478.jpg" crc="495653016" ref="index"/>
+    <file name="u452-4.png" crc="3895757798" ref="index"/>
+    <file name="img_20181212_205416-crop-u478.jpg" crc="3805796468" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="img_20181212_234625-crop-u619.jpg" crc="361168957" ref="index"/>
-    <file name="img_20181212_234950-crop-u645.jpg" crc="395077176" ref="index"/>
-    <file name="img_20181212_235052-crop-u671.jpg" crc="499669365" ref="index"/>
-    <file name="img_20190427_181021-crop-u697.jpg" crc="3790578720" ref="index"/>
-    <file name="img_20190427_220928-crop-u723.jpg" crc="3998767985" ref="index"/>
-    <file name="img_20190427_220937-crop-u749.jpg" crc="4238886141" ref="index"/>
+    <file name="img_20181212_234625-crop-u619.jpg" crc="20215051" ref="index"/>
+    <file name="img_20181212_234950-crop-u645.jpg" crc="511676429" ref="index"/>
+    <file name="img_20181212_235052-crop-u671.jpg" crc="422567336" ref="index"/>
+    <file name="img_20190427_181021-crop-u697.jpg" crc="4037091711" ref="index"/>
+    <file name="img_20190427_220928-crop-u723.jpg" crc="3993626358" ref="index"/>
+    <file name="img_20190427_220937-crop-u749.jpg" crc="420002632" ref="index"/>
     <file name="img_20190427_221001.jpg" crc="4263977225" seo="true" ref="index"/>
     <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="laleyendacontinua.png" crc="4192659363" seo="true" ref="index"/>
+    <file name="img_20181212_234950256x341.jpg" crc="4059678326" seo="true" ref="index"/>
+    <file name="img_20181212_205416-crop-u468.jpg" crc="226086898" ref="index"/>
+    <file name="img_20181212_234625-crop-u627.jpg" crc="113779178" ref="index"/>
+    <file name="img_20181212_234950-crop-u653.jpg" crc="403026074" ref="index"/>
+    <file name="img_20181212_235052-crop-u679.jpg" crc="410666184" ref="index"/>
+    <file name="img_20190427_181021-crop-u705.jpg" crc="12291506" ref="index"/>
+    <file name="img_20190427_220928-crop-u731.jpg" crc="4271399306" ref="index"/>
+    <file name="img_20190427_220937-crop-u757.jpg" crc="328494121" ref="index"/>
+    <file name="img_20190427_22100160x45.jpg" crc="27261054" seo="true" ref="index"/>
+    <file name="fotoyvideo.png" crc="376023490" seo="true" ref="index"/>
+    <file name="u117-42.png" crc="186325767" ref="index"/>
+    <file name="personamaslogo2-crop-u107.png" crc="20963253" ref="index"/>
+    <file name="javierestudio-u193-fr.jpg" crc="462907090" ref="index"/>
+    <file name="u408-312.png" crc="484892801" ref="index"/>
+    <file name="u452-42.png" crc="3786151950" ref="index"/>
+    <file name="img_20181212_205416-crop-u4782.jpg" crc="3850118565" ref="index"/>
+    <file name="img_20181212_234625-crop-u6192.jpg" crc="368792076" ref="index"/>
+    <file name="img_20181212_235052-crop-u6712.jpg" crc="3950471328" ref="index"/>
+    <file name="img_20190427_181021-crop-u6972.jpg" crc="4127536248" ref="index"/>
+    <file name="img_20190427_220928-crop-u7232.jpg" crc="4233425330" ref="index"/>
+    <file name="img_20190427_220937-crop-u7492.jpg" crc="419306125" ref="index"/>
+    <file name="img_20181212_205416-crop-u4682.jpg" crc="226086898" ref="index"/>
+    <file name="img_20181212_234625-crop-u6272.jpg" crc="113779178" ref="index"/>
+    <file name="img_20181212_234950-crop-u6532.jpg" crc="403026074" ref="index"/>
+    <file name="img_20181212_235052-crop-u6792.jpg" crc="410666184" ref="index"/>
+    <file name="img_20190427_181021-crop-u7052.jpg" crc="12291506" ref="index"/>
+    <file name="img_20190427_220928-crop-u7312.jpg" crc="4271399306" ref="index"/>
+    <file name="img_20190427_220937-crop-u7572.jpg" crc="328494121" ref="index"/>
   </folder>
-  <file name="index.html" crc="3766803789" seo="true" mt="1557341260431" redirect="true"/>
+  <file name="index.html" crc="491573042" seo="true" mt="1557356551059" redirect="true"/>
 </manifest>
