@@ -1,7 +1,8 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.losbksoficial.com" resolutions="1x" timestamp="1557435968878">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.losbksoficial.com" resolutions="1x" timestamp="1557519301577">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="323640708" ref="index"/>
+    <file name="index.css" crc="310821152" ref="index"/>
+    <file name="nomq_index.css" crc="183635571" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -15,12 +16,12 @@
     <file name="musewpslideshow.js" crc="4041717617" ref="index"/>
     <file name="jquery.museoverlay.js" crc="36492500" ref="index"/>
     <file name="touchswipe.js" crc="404375771" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="4146931122" ref="index"/>
   </folder>
   <folder name="images">
     <file name="u117-4.png" crc="4091115962" ref="index"/>
     <file name="personamaslogo2.png" crc="3851971663" seo="true" ref="index"/>
     <file name="javierestudio.jpg" crc="311941049" ref="index"/>
-    <file name="u408-31.png" crc="3999616401" ref="index"/>
     <file name="losbks04.jpg" crc="4095762880" ref="index"/>
     <file name="u452-4.png" crc="362859115" ref="index"/>
     <file name="img_20181212_205416-crop-u478.jpg" crc="3805796468" ref="index"/>
@@ -43,6 +44,26 @@
     <file name="img_20190427_22100160x45.jpg" crc="27261054" seo="true" ref="index"/>
     <file name="fotoyvideo.png" crc="376023490" seo="true" ref="index"/>
     <file name="img_20181212_234950.jpg" crc="4059678326" seo="true" ref="index"/>
+    <file name="u408-32.png" crc="69960468" ref="index"/>
+    <file name="u3556-4.png" crc="4015227135" ref="index"/>
+    <file name="u117-42.png" crc="161970756" ref="index"/>
+    <file name="javierestudio-u193-fr.jpg" crc="462907090" ref="index"/>
+    <file name="u408-322.png" crc="4205254426" ref="index"/>
+    <file name="u452-42.png" crc="432727603" ref="index"/>
+    <file name="img_20181212_205416-crop-u4782.jpg" crc="389002177" ref="index"/>
+    <file name="img_20181212_234625-crop-u6192.jpg" crc="194214006" ref="index"/>
+    <file name="img_20181212_235052-crop-u6712.jpg" crc="4290652867" ref="index"/>
+    <file name="img_20190427_181021-crop-u6972.jpg" crc="399634085" ref="index"/>
+    <file name="img_20190427_220928-crop-u7232.jpg" crc="3843802455" ref="index"/>
+    <file name="img_20190427_220937-crop-u7492.jpg" crc="411127691" ref="index"/>
+    <file name="img_20181212_205416-crop-u4682.jpg" crc="226086898" ref="index"/>
+    <file name="img_20181212_234625-crop-u6272.jpg" crc="113779178" ref="index"/>
+    <file name="img_20181212_234950-crop-u6532.jpg" crc="403026074" ref="index"/>
+    <file name="img_20181212_235052-crop-u6792.jpg" crc="410666184" ref="index"/>
+    <file name="img_20190427_181021-crop-u7052.jpg" crc="12291506" ref="index"/>
+    <file name="img_20190427_220928-crop-u7312.jpg" crc="4271399306" ref="index"/>
+    <file name="img_20190427_220937-crop-u7572.jpg" crc="328494121" ref="index"/>
+    <file name="u3556-42.png" crc="22330341" ref="index"/>
   </folder>
-  <file name="index.html" crc="4190356270" seo="true" mt="1557435290490" redirect="true"/>
+  <file name="index.html" crc="3973018108" seo="true" mt="1557519067373" redirect="true"/>
 </manifest>
