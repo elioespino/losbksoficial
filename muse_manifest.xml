@@ -1,14 +1,15 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.losbksoficial.com" resolutions="1x" timestamp="1557690036510">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.losbksoficial.com" resolutions="1x" timestamp="1557701741667">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="309568797" ref="index"/>
+    <file name="index.css" crc="393713602" ref="index"/>
     <file name="nomq_index.css" crc="224068709" ref="index"/>
     <file name="eventos.css" crc="495403179" ref="eventos"/>
     <file name="videos.css" crc="495403179" ref="videos"/>
-    <file name="grupo.css" crc="495403179" ref="grupo"/>
+    <file name="grupo.css" crc="140522398" ref="grupo"/>
     <file name="fotos.css" crc="495403179" ref="fotos"/>
     <file name="bio.css" crc="495403179" ref="bio"/>
     <file name="noticias.css" crc="495403179" ref="noticias"/>
+    <file name="nomq_grupo.css" crc="55973879" ref="grupo"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
@@ -17,14 +18,15 @@
     <file name="museconfig.js" crc="168988563" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
     <file name="jquery.watch.js" crc="104486786" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
     <file name="require.js" crc="244322403" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="jquery.museresponsive.js" crc="4146931122" ref="index"/>
-    <file name="webpro.js" crc="3848665353" ref="index"/>
-    <file name="musewpslideshow.js" crc="4041717617" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="36492500" ref="index"/>
-    <file name="touchswipe.js" crc="404375771" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="4146931122" ref="index:grupo"/>
+    <file name="webpro.js" crc="3848665353" ref="index:grupo"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="index:grupo"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="index:grupo"/>
+    <file name="touchswipe.js" crc="404375771" ref="index:grupo"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="grupo"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:grupo"/>
     <file name="home_image_up-crop-u4788.png" crc="4266042258" ref="index"/>
     <file name="homemusicabks_1200_sin4.jpg" crc="12523472" seo="true" ref="index"/>
     <file name="store_googleplay.png" crc="3802827792" seo="true" ref="index"/>
@@ -79,9 +81,48 @@
     <file name="u14572-4.png" crc="84772721" ref="index"/>
     <file name="u14576-4.png" crc="423786156" ref="index"/>
     <file name="u14566-4.png" crc="4189676278" ref="index"/>
+    <file name="losbks_logo_title.png" crc="216866545" seo="true" ref="grupo"/>
+    <file name="title_grupo.png" crc="128852117" seo="true" ref="grupo"/>
+    <file name="losbks04.jpg" crc="4095762880" ref="grupo"/>
+    <file name="u15129-18.png" crc="457160955" ref="grupo"/>
+    <file name="img_20190501_183814.jpg" crc="452410847" ref="grupo"/>
+    <file name="u15342-4.png" crc="61082160" ref="grupo"/>
+    <file name="u15345-4-a.png" crc="262481590" ref="grupo"/>
+    <file name="u15346-4.png" crc="4226881067" ref="grupo"/>
+    <file name="u15347-4.png" crc="478850889" ref="grupo"/>
+    <file name="u15341-4.png" crc="336607867" ref="grupo"/>
+    <file name="u15344-4.png" crc="462679369" ref="grupo"/>
+    <file name="u15343-4.png" crc="4201581252" ref="grupo"/>
+    <file name="u15336-4.png" crc="299479740" ref="grupo"/>
+    <file name="u15706-4.png" crc="61082160" ref="grupo"/>
+    <file name="u15705-4-a.png" crc="262481590" ref="grupo"/>
+    <file name="u15704-4.png" crc="4226881067" ref="grupo"/>
+    <file name="u15703-4.png" crc="478850889" ref="grupo"/>
+    <file name="u15701-4.png" crc="336607867" ref="grupo"/>
+    <file name="u15707-4.png" crc="462679369" ref="grupo"/>
+    <file name="u15702-4.png" crc="4201581252" ref="grupo"/>
+    <file name="u15709-4.png" crc="299479740" ref="grupo"/>
+    <file name="losbks04-u15118-fr.jpg" crc="4244460004" ref="grupo"/>
+    <file name="u16630-17.png" crc="422242554" ref="grupo"/>
+    <file name="losbks2-u16718-fr.jpg" crc="281128370" ref="grupo"/>
+    <file name="img_20190501_183814-u17411-fr.jpg" crc="4168610457" ref="grupo"/>
+    <file name="bks_tvnotas-u16527-fr.jpg" crc="192787183" ref="grupo"/>
+    <file name="u16146-4.png" crc="3770367868" ref="grupo"/>
+    <file name="u16151-4-a.png" crc="329846998" ref="grupo"/>
+    <file name="u16149-4.png" crc="3970632436" ref="grupo"/>
+    <file name="u16148-4.png" crc="132875291" ref="grupo"/>
+    <file name="u16150-4.png" crc="4004154383" ref="grupo"/>
+    <file name="u16147-4.png" crc="3854712332" ref="grupo"/>
+    <file name="u16152-4.png" crc="4005726815" ref="grupo"/>
+    <file name="u16154-4.png" crc="4126475056" ref="grupo"/>
+    <file name="losbks04-u15118-fr2.jpg" crc="288458646" ref="grupo"/>
+    <file name="u16970-16.png" crc="3885341407" ref="grupo"/>
+    <file name="losbks2-u16980-fr.jpg" crc="475633978" ref="grupo"/>
+    <file name="img_20190501_183814-u15192-fr.jpg" crc="344210591" ref="grupo"/>
+    <file name="bks_tvnotas-u16979-fr.jpg" crc="81560906" ref="grupo"/>
   </folder>
-  <file name="index.html" crc="390121943" seo="true" mt="1557688800464" redirect="true"/>
-  <file name="grupo.html" crc="3785494973" seo="true" mt="1557637162393" redirect="false"/>
+  <file name="index.html" crc="4182128951" seo="true" mt="1557691051996" redirect="true"/>
+  <file name="grupo.html" crc="514562722" seo="true" mt="1557701688677" redirect="true"/>
   <file name="bio.html" crc="3938873569" seo="true" mt="1557637173595" redirect="false"/>
   <file name="eventos.html" crc="4225851754" seo="true" mt="1557637186354" redirect="false"/>
   <file name="fotos.html" crc="100216481" seo="true" mt="1557637193941" redirect="false"/>
