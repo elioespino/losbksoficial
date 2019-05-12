@@ -1,24 +1,90 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.losbksoficial.com" resolutions="1x" timestamp="1557616846578">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.losbksoficial.com" resolutions="1x" timestamp="1557690036510">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="513635634" ref="index"/>
-    <file name="nomq_index.css" crc="105163785" ref="index"/>
+    <file name="index.css" crc="309568797" ref="index"/>
+    <file name="nomq_index.css" crc="224068709" ref="index"/>
+    <file name="eventos.css" crc="495403179" ref="eventos"/>
+    <file name="videos.css" crc="495403179" ref="videos"/>
+    <file name="grupo.css" crc="495403179" ref="grupo"/>
+    <file name="fotos.css" crc="495403179" ref="fotos"/>
+    <file name="bio.css" crc="495403179" ref="bio"/>
+    <file name="noticias.css" crc="495403179" ref="noticias"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="163421577" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="168988563" ref="index"/>
-    <file name="jquery.watch.js" crc="104486786" ref="index"/>
-    <file name="require.js" crc="244322403" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
+    <file name="museutils.js" crc="163421577" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
+    <file name="whatinput.js" crc="86476730" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
+    <file name="museconfig.js" crc="168988563" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
+    <file name="require.js" crc="244322403" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
     <file name="jquery.museresponsive.js" crc="4146931122" ref="index"/>
+    <file name="webpro.js" crc="3848665353" ref="index"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="index"/>
+    <file name="touchswipe.js" crc="404375771" ref="index"/>
   </folder>
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="home_image_up-crop-u4788.png" crc="4266042258" ref="index"/>
-    <file name="homemusicabks.jpg" crc="4114943330" seo="true" ref="index"/>
-    <file name="home_image_up_400px.png" crc="4285672164" seo="true" ref="index"/>
-    <file name="homemusicabks-crop-u4613.jpg" crc="3769541266" ref="index"/>
+    <file name="homemusicabks_1200_sin4.jpg" crc="12523472" seo="true" ref="index"/>
+    <file name="store_googleplay.png" crc="3802827792" seo="true" ref="index"/>
+    <file name="store_deezer.png" crc="3778102355" seo="true" ref="index"/>
+    <file name="store_spotify.png" crc="3901615020" seo="true" ref="index"/>
+    <file name="store_itunes.png" crc="3851462082" seo="true" ref="index"/>
+    <file name="store_applemusic.png" crc="133391324" seo="true" ref="index"/>
+    <file name="home_image_up-crop-u47882.png" crc="4171819183" ref="index"/>
+    <file name="homemusicabks_1200_sin4700x475.jpg" crc="337516646" seo="true" ref="index"/>
+    <file name="home_image_up-crop-u47883.png" crc="297397221" ref="index"/>
+    <file name="homemusicabks_1200_sin4520x353.jpg" crc="3784784779" seo="true" ref="index"/>
+    <file name="home_image_up-crop-u47884.png" crc="3821235277" ref="index"/>
+    <file name="home_image_up_400pxv2.png" crc="4127308689" seo="true" ref="index"/>
+    <file name="home_image_down_400px_sin2.jpg" crc="449597217" seo="true" ref="index"/>
+    <file name="u13191-4-a.png" crc="61082160" ref="index"/>
+    <file name="u13109-4.png" crc="262481590" ref="index"/>
+    <file name="u13116-4.png" crc="4226881067" ref="index"/>
+    <file name="u13131-4.png" crc="478850889" ref="index"/>
+    <file name="u13146-4.png" crc="336607867" ref="index"/>
+    <file name="u13161-4.png" crc="462679369" ref="index"/>
+    <file name="u13176-4.png" crc="4201581252" ref="index"/>
+    <file name="u12942-4.png" crc="299479740" ref="index"/>
+    <file name="u13395-4-a.png" crc="4122097333" ref="index"/>
+    <file name="u13398-4.png" crc="404318625" ref="index"/>
+    <file name="u13399-4.png" crc="356885920" ref="index"/>
+    <file name="u13400-4.png" crc="3790361899" ref="index"/>
+    <file name="u13394-4.png" crc="203757305" ref="index"/>
+    <file name="u13397-4.png" crc="4182218924" ref="index"/>
+    <file name="u13396-4.png" crc="57923938" ref="index"/>
+    <file name="u13389-4.png" crc="331319390" ref="index"/>
+    <file name="u13906-4-a.png" crc="3843181063" ref="index"/>
+    <file name="u13908-4.png" crc="442126780" ref="index"/>
+    <file name="u13909-4.png" crc="4282409273" ref="index"/>
+    <file name="u13910-4.png" crc="4291612419" ref="index"/>
+    <file name="u13907-4.png" crc="229748168" ref="index"/>
+    <file name="u13905-4.png" crc="499550557" ref="index"/>
+    <file name="u13904-4.png" crc="4239197751" ref="index"/>
+    <file name="u13899-4.png" crc="39101971" ref="index"/>
+    <file name="u14221-4-a.png" crc="4288319713" ref="index"/>
+    <file name="u14224-4.png" crc="4190266676" ref="index"/>
+    <file name="u14220-4.png" crc="3807093641" ref="index"/>
+    <file name="u14219-4.png" crc="3961880283" ref="index"/>
+    <file name="u14223-4.png" crc="3851335685" ref="index"/>
+    <file name="u14225-4.png" crc="4112464574" ref="index"/>
+    <file name="u14222-4.png" crc="3796615606" ref="index"/>
+    <file name="u14227-4.png" crc="189330673" ref="index"/>
+    <file name="u14575-4-a.png" crc="4115854476" ref="index"/>
+    <file name="u14577-4.png" crc="4030659100" ref="index"/>
+    <file name="u14573-4.png" crc="193700093" ref="index"/>
+    <file name="u14574-4.png" crc="452513857" ref="index"/>
+    <file name="u14571-4.png" crc="287652461" ref="index"/>
+    <file name="u14572-4.png" crc="84772721" ref="index"/>
+    <file name="u14576-4.png" crc="423786156" ref="index"/>
+    <file name="u14566-4.png" crc="4189676278" ref="index"/>
   </folder>
-  <file name="index.html" crc="3816043030" seo="true" mt="1557616723261" redirect="true"/>
+  <file name="index.html" crc="390121943" seo="true" mt="1557688800464" redirect="true"/>
+  <file name="grupo.html" crc="3785494973" seo="true" mt="1557637162393" redirect="false"/>
+  <file name="bio.html" crc="3938873569" seo="true" mt="1557637173595" redirect="false"/>
+  <file name="eventos.html" crc="4225851754" seo="true" mt="1557637186354" redirect="false"/>
+  <file name="fotos.html" crc="100216481" seo="true" mt="1557637193941" redirect="false"/>
+  <file name="videos.html" crc="466023196" seo="true" mt="1557637202369" redirect="false"/>
+  <file name="noticias.html" crc="4273066572" seo="true" mt="1557637211411" redirect="false"/>
 </manifest>
