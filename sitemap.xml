@@ -2,19 +2,103 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.losbksoficial.com/index.html</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/videos.html</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/noticias.html</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/fotos.html</loc>
     <lastmod>2019-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.losbksoficial.com/images/homemusicabks.jpg</loc>
+    <loc>http://www.losbksoficial.com/eventos.html</loc>
     <lastmod>2019-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.losbksoficial.com/images/home_image_up_400px.png</loc>
+    <loc>http://www.losbksoficial.com/grupo.html</loc>
     <lastmod>2019-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/bio.html</loc>
+    <lastmod>2019-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/images/homemusicabks_1200_sin4700x475.jpg</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/images/store_applemusic.png</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/images/home_image_down_400px_sin2.jpg</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/images/store_googleplay.png</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/images/store_itunes.png</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/images/store_spotify.png</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/images/store_deezer.png</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/images/homemusicabks_1200_sin4520x353.jpg</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/images/homemusicabks_1200_sin4.jpg</loc>
+    <lastmod>2019-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.losbksoficial.com/images/home_image_up_400pxv2.png</loc>
+    <lastmod>2019-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
