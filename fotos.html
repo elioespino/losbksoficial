@@ -11,18 +11,555 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "fotos.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "fotos.css"], "outOfDate":[]};
 </script>
   
+  <link rel="shortcut icon" href="images/favicon.ico?crc=140864763"/>
   <title>Fotos</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/fotos.css?crc=495403179" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/fotos.css?crc=143844724" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_fotos.css?crc=4045852188" id="nomq_pagesheet"/>
+  <![endif]-->
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="0" data-content-below-spacer="500"></div>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="701"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- column -->
+    <div class="clearfix colelem" id="pu21019"><!-- group -->
+     <div class="clip_frame grpelem shared_content" id="u21019" data-content-guid="u21019_content"><!-- image -->
+      <img class="block temp_no_img_src" id="u21019_img" data-orig-src="images/losbks_logo_title.png?crc=216866545" alt="" width="147" height="96" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="PamphletWidget clearfix grpelem" id="pamphletu37584"><!-- none box -->
+      <div class="popup_anchor" id="u37592popup">
+       <div class="ContainerGroup clearfix" id="u37592"><!-- stack box -->
+        <div class="Container invi clearfix grpelem" id="u37593"><!-- column -->
+         <a class="nonblock nontext colelem" id="u37598-4" href="index.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37598-4_img" alt="INICIO" data-orig-src="images/u37598-4.png?crc=61082160" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u37596-4" href="grupo.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37596-4_img" alt="GRUPO" data-orig-src="images/u37596-4.png?crc=262481590" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u37597-4" href="bio.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37597-4_img" alt="BIOGRAFÍAS" data-orig-src="images/u37597-4.png?crc=4226881067" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u37599-4" href="eventos.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37599-4_img" alt="CALENDARIO" data-orig-src="images/u37599-4.png?crc=478850889" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext MuseLinkActive colelem" id="u37595-4" href="fotos.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37595-4_img" alt="FOTOS" data-orig-src="images/u37595-4-a.png?crc=336607867" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u37600-4" href="videos.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37600-4_img" alt="VIDEOS" data-orig-src="images/u37600-4.png?crc=462679369" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u37594-4" href="noticias.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37594-4_img" alt="NOTICIAS" data-orig-src="images/u37594-4.png?crc=4201581252" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+        </div>
+       </div>
+      </div>
+      <div class="ThumbGroup clearfix grpelem" id="u37585"><!-- none box -->
+       <div class="popup_anchor" id="u37586popup">
+        <div class="Thumb popup_element clearfix" id="u37586"><!-- column -->
+         <div class="colelem" id="u37589"><!-- simple frame --></div>
+         <div class="colelem" id="u37587"><!-- simple frame --></div>
+         <div class="colelem" id="u37588"><!-- simple frame --></div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u37603popup">
+       <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u37603"><!-- group -->
+        <img class="grpelem temp_no_img_src" id="u37604-4" alt="x" data-orig-src="images/u37604-4.png?crc=299479740" data-image-width="60" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clip_frame colelem" id="u21026"><!-- image -->
+     <img class="block temp_no_img_src" id="u21026_img" data-orig-src="images/title_fotografias.png?crc=3914933359" alt="" data-image-width="400" data-image-height="150" src="images/blank.gif?crc=4208392903"/>
+    </div>
+    <img class="colelem temp_no_img_src" id="u21173-4" alt="En esta sección podrás encontrar las fotografías de nuestros ensayos, eventos y actividades con los medios de comunicación. ¿Tienes una foto con nosotros? Mándala y la ponemos en nuestro álbum virtual." data-orig-src="images/u21173-4.png?crc=120775803" data-image-width="1062" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+    <div class="SlideShowWidget clearfix HeroFitContent colelem" id="slideshowu30298"><!-- none box -->
+     <div class="popup_anchor" id="u30341popup">
+      <div class="SlideShowContentPanel clearfix" id="u30341"><!-- stack box -->
+       <div class="SSSlide clip_frame grpelem" id="u30374"><!-- image -->
+        <img class="ImageInclude" id="u30374_img" data-src="images/img25.jpg?crc=4144910485" src="images/blank.gif?crc=4208392903" alt="" data-width="298" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30412"><!-- image -->
+        <img class="ImageInclude" id="u30412_img" data-src="images/bks_tvnotas.jpg?crc=4128731178" src="images/blank.gif?crc=4208392903" alt="" data-width="521" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30356"><!-- image -->
+        <img class="ImageInclude" id="u30356_img" data-src="images/img_20181118_004959.jpg?crc=425118445" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30358"><!-- image -->
+        <img class="ImageInclude" id="u30358_img" data-src="images/img_20181118_010113.jpg?crc=3952613631" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30370"><!-- image -->
+        <img class="ImageInclude" id="u30370_img" data-src="images/img_20181118_010136.jpg?crc=394184345" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30398"><!-- image -->
+        <img class="ImageInclude" id="u30398_img" data-src="images/img_20181212_205416.jpg?crc=4002384660" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30346"><!-- image -->
+        <img class="ImageInclude" id="u30346_img" data-src="images/img_20181212_234950.jpg?crc=228576534" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30368"><!-- image -->
+        <img class="ImageInclude" id="u30368_img" data-src="images/img_20181212_235052.jpg?crc=151146596" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30382"><!-- image -->
+        <img class="ImageInclude" id="u30382_img" data-src="images/img_20190427_181021.jpg?crc=4039523621" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30342"><!-- image -->
+        <img class="ImageInclude" id="u30342_img" data-src="images/img_20190427_181025.jpg?crc=181485404" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30402"><!-- image -->
+        <img class="ImageInclude" id="u30402_img" data-src="images/img_20190427_211454.jpg?crc=480309901" src="images/blank.gif?crc=4208392903" alt="" data-width="663" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30406"><!-- image -->
+        <img class="ImageInclude" id="u30406_img" data-src="images/img_20190427_220928.jpg?crc=4023211637" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30376"><!-- image -->
+        <img class="ImageInclude" id="u30376_img" data-src="images/img_20190427_220937.jpg?crc=12653954" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30392"><!-- image -->
+        <img class="ImageInclude" id="u30392_img" data-src="images/img-20190427-wa0010.jpg?crc=387755289" src="images/blank.gif?crc=4208392903" alt="" data-width="298" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30378"><!-- image -->
+        <img class="ImageInclude" id="u30378_img" data-src="images/losbks.jpg?crc=4104055190" src="images/blank.gif?crc=4208392903" alt="" data-width="663" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30394"><!-- image -->
+        <img class="ImageInclude" id="u30394_img" data-src="images/losbks2.jpg?crc=413574978" src="images/blank.gif?crc=4208392903" alt="" data-width="809" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30388"><!-- image -->
+        <img class="ImageInclude" id="u30388_img" data-src="images/losbks3.jpg?crc=313394854" src="images/blank.gif?crc=4208392903" alt="" data-width="746" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30350"><!-- image -->
+        <img class="ImageInclude" id="u30350_img" data-src="images/bks_tvnotas.jpg?crc=4128731178" src="images/blank.gif?crc=4208392903" alt="" data-width="521" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30404"><!-- image -->
+        <img class="ImageInclude" id="u30404_img" data-src="images/img_20181118_004959.jpg?crc=425118445" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30386"><!-- image -->
+        <img class="ImageInclude" id="u30386_img" data-src="images/img_20181118_010113.jpg?crc=3952613631" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30410"><!-- image -->
+        <img class="ImageInclude" id="u30410_img" data-src="images/img_20181118_010136.jpg?crc=394184345" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30352"><!-- image -->
+        <img class="ImageInclude" id="u30352_img" data-src="images/img_20181212_205416.jpg?crc=4002384660" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30372"><!-- image -->
+        <img class="ImageInclude" id="u30372_img" data-src="images/img_20181212_234950.jpg?crc=228576534" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30408"><!-- image -->
+        <img class="ImageInclude" id="u30408_img" data-src="images/img_20181212_235052.jpg?crc=151146596" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30390"><!-- image -->
+        <img class="ImageInclude" id="u30390_img" data-src="images/img_20190427_181021.jpg?crc=4039523621" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30362"><!-- image -->
+        <img class="ImageInclude" id="u30362_img" data-src="images/img_20190427_181025.jpg?crc=181485404" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30384"><!-- image -->
+        <img class="ImageInclude" id="u30384_img" data-src="images/img_20190427_211454.jpg?crc=480309901" src="images/blank.gif?crc=4208392903" alt="" data-width="663" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30364"><!-- image -->
+        <img class="ImageInclude" id="u30364_img" data-src="images/img_20190427_220928.jpg?crc=4023211637" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30380"><!-- image -->
+        <img class="ImageInclude" id="u30380_img" data-src="images/img_20190427_220937.jpg?crc=12653954" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30366"><!-- image -->
+        <img class="ImageInclude" id="u30366_img" data-src="images/losbks.jpg?crc=4104055190" src="images/blank.gif?crc=4208392903" alt="" data-width="663" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30348"><!-- image -->
+        <img class="ImageInclude" id="u30348_img" data-src="images/losbks2.jpg?crc=413574978" src="images/blank.gif?crc=4208392903" alt="" data-width="809" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30400"><!-- image -->
+        <img class="ImageInclude" id="u30400_img" data-src="images/losbks3.jpg?crc=313394854" src="images/blank.gif?crc=4208392903" alt="" data-width="746" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30354"><!-- image -->
+        <img class="ImageInclude" id="u30354_img" data-src="images/img19.jpg?crc=252972747" src="images/blank.gif?crc=4208392903" alt="" data-width="748" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30360"><!-- image -->
+        <img class="ImageInclude" id="u30360_img" data-src="images/img20.jpg?crc=3778592979" src="images/blank.gif?crc=4208392903" alt="" data-width="748" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30396"><!-- image -->
+        <img class="ImageInclude" id="u30396_img" data-src="images/img21.jpg?crc=234236606" src="images/blank.gif?crc=4208392903" alt="" data-width="748" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u30344"><!-- image -->
+        <img class="ImageInclude" id="u30344_img" data-src="images/img26.jpg?crc=387755289" src="images/blank.gif?crc=4208392903" alt="" data-width="298" data-height="497"/>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u30414-4popup">
+      <div class="SlideShowLabel SSSlideCount clearfix" id="u30414-4"><!-- content -->
+       <p>1 - 36</p>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u30300-4popup">
+      <div class="SSPreviousButton clearfix" id="u30300-4"><!-- content -->
+       <p>&lt;</p>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u30299-4popup">
+      <div class="SSNextButton clearfix" id="u30299-4"><!-- content -->
+       <p>&gt;</p>
+      </div>
+     </div>
+    </div>
+    <div class="colelem shared_content" id="u21218" data-content-guid="u21218_content"><!-- simple frame --></div>
+    <div class="clearfix colelem" id="u38975"><!-- group -->
+     <img class="grpelem temp_no_img_src" id="u38976-6" alt="Síguenos en redes sociales" data-orig-src="images/u38976-6.png?crc=3902178546" data-image-width="255" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     <a class="nonblock nontext clip_frame grpelem" id="u38977" href="https://www.facebook.com/LosBKSFanPageOficial/"><!-- image --><img class="block temp_no_img_src" id="u38977_img" data-orig-src="images/logo%20fb.png?crc=511856112" alt="" data-image-width="93" data-image-height="93" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame grpelem" id="u38979" href="https://www.youtube.com/channel/UCUW2b7RxppNIKTc30rdLh0Q?"><!-- image --><img class="block temp_no_img_src" id="u38979_img" data-orig-src="images/logoyt.png?crc=3908855500" alt="" data-image-width="93" data-image-height="93" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame grpelem" id="u38981" href="https://www.instagram.com/LosBksOficial/"><!-- image --><img class="block temp_no_img_src" id="u38981_img" data-orig-src="images/logo%20instagram.png?crc=335431871" alt="" data-image-width="93" data-image-height="93" src="images/blank.gif?crc=4208392903"/></a>
+    </div>
+    <div class="verticalspacer" data-offset-top="1200" data-content-above-spacer="1200" data-content-below-spacer="62"></div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_700" data-min-width="401" data-max-width="700"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu21019"><!-- group -->
+     <span class="clip_frame grpelem placeholder" data-placeholder-for="u21019_content"><!-- placeholder node --></span>
+     <div class="PamphletWidget clearfix grpelem" id="pamphletu21036"><!-- none box -->
+      <div class="popup_anchor" id="u21044popup">
+       <div class="ContainerGroup clearfix" id="u21044"><!-- stack box -->
+        <div class="Container invi clearfix grpelem" id="u21045"><!-- column -->
+         <a class="nonblock nontext colelem" id="u21051-4" href="index.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u21051-4_img" alt="INICIO" data-orig-src="images/u21051-4.png?crc=61082160" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u21050-4" href="grupo.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u21050-4_img" alt="GRUPO" data-orig-src="images/u21050-4.png?crc=262481590" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u21047-4" href="bio.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u21047-4_img" alt="BIOGRAFÍAS" data-orig-src="images/u21047-4.png?crc=4226881067" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u21049-4" href="eventos.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u21049-4_img" alt="CALENDARIO" data-orig-src="images/u21049-4.png?crc=478850889" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext MuseLinkActive colelem" id="u21048-4" href="fotos.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u21048-4_img" alt="FOTOS" data-orig-src="images/u21048-4-a.png?crc=336607867" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u21046-4" href="videos.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u21046-4_img" alt="VIDEOS" data-orig-src="images/u21046-4.png?crc=462679369" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u21052-4" href="noticias.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u21052-4_img" alt="NOTICIAS" data-orig-src="images/u21052-4.png?crc=4201581252" data-image-width="376" src="images/blank.gif?crc=4208392903"/></a>
+        </div>
+       </div>
+      </div>
+      <div class="ThumbGroup clearfix grpelem" id="u21037"><!-- none box -->
+       <div class="popup_anchor" id="u21038popup">
+        <div class="Thumb popup_element clearfix" id="u21038"><!-- column -->
+         <div class="colelem" id="u21040"><!-- simple frame --></div>
+         <div class="colelem" id="u21039"><!-- simple frame --></div>
+         <div class="colelem" id="u21041"><!-- simple frame --></div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u21055popup">
+       <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u21055"><!-- group -->
+        <img class="grpelem temp_no_img_src" id="u21056-4" alt="x" data-orig-src="images/u21056-4.png?crc=299479740" data-image-width="60" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clip_frame colelem" id="u30216"><!-- image -->
+     <img class="block temp_no_img_src" id="u30216_img" data-orig-src="images/title_fotografias.png?crc=3914933359" alt="" data-image-width="337" data-image-height="126" src="images/blank.gif?crc=4208392903"/>
+    </div>
+    <img class="colelem temp_no_img_src" id="u30245-4" alt="En esta sección podrás encontrar las fotografías de nuestros ensayos, eventos y actividades con los medios de comunicación. ¿Tienes una foto con nosotros? Mándala y la ponemos en nuestro álbum virtual." data-orig-src="images/u30245-4.png?crc=4153871487" data-image-width="620" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+    <div class="SlideShowWidget clearfix HeroFitContent colelem" id="slideshowu26304"><!-- none box -->
+     <div class="popup_anchor" id="u26422popup">
+      <div class="SlideShowContentPanel clearfix" id="u26422"><!-- stack box -->
+       <div class="SSSlide clip_frame grpelem" id="u26447"><!-- image -->
+        <img class="ImageInclude" id="u26447_img" data-src="images/bks_tvnotas.jpg?crc=4128731178" src="images/blank.gif?crc=4208392903" alt="" data-width="521" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26491"><!-- image -->
+        <img class="ImageInclude" id="u26491_img" data-src="images/img_20181118_004959.jpg?crc=425118445" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26463"><!-- image -->
+        <img class="ImageInclude" id="u26463_img" data-src="images/img_20181118_010113.jpg?crc=3952613631" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26487"><!-- image -->
+        <img class="ImageInclude" id="u26487_img" data-src="images/img_20181118_010136.jpg?crc=394184345" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26467"><!-- image -->
+        <img class="ImageInclude" id="u26467_img" data-src="images/img_20181212_205416.jpg?crc=4002384660" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26473"><!-- image -->
+        <img class="ImageInclude" id="u26473_img" data-src="images/img_20181212_234950.jpg?crc=228576534" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26431"><!-- image -->
+        <img class="ImageInclude" id="u26431_img" data-src="images/img_20181212_235052.jpg?crc=151146596" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26453"><!-- image -->
+        <img class="ImageInclude" id="u26453_img" data-src="images/img_20190427_181021.jpg?crc=4039523621" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26461"><!-- image -->
+        <img class="ImageInclude" id="u26461_img" data-src="images/img_20190427_181025.jpg?crc=181485404" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26423"><!-- image -->
+        <img class="ImageInclude" id="u26423_img" data-src="images/img_20190427_211454.jpg?crc=480309901" src="images/blank.gif?crc=4208392903" alt="" data-width="663" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26455"><!-- image -->
+        <img class="ImageInclude" id="u26455_img" data-src="images/img_20190427_220928.jpg?crc=4023211637" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26483"><!-- image -->
+        <img class="ImageInclude" id="u26483_img" data-src="images/img_20190427_220937.jpg?crc=12653954" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26449"><!-- image -->
+        <img class="ImageInclude" id="u26449_img" data-src="images/img-20190427-wa0010.jpg?crc=387755289" src="images/blank.gif?crc=4208392903" alt="" data-width="298" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26435"><!-- image -->
+        <img class="ImageInclude" id="u26435_img" data-src="images/losbks.jpg?crc=4104055190" src="images/blank.gif?crc=4208392903" alt="" data-width="663" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26485"><!-- image -->
+        <img class="ImageInclude" id="u26485_img" data-src="images/losbks2.jpg?crc=413574978" src="images/blank.gif?crc=4208392903" alt="" data-width="700" data-height="430"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26475"><!-- image -->
+        <img class="ImageInclude" id="u26475_img" data-src="images/losbks3.jpg?crc=313394854" src="images/blank.gif?crc=4208392903" alt="" data-width="700" data-height="467"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26425"><!-- image -->
+        <img class="ImageInclude" id="u26425_img" data-src="images/bks_tvnotas.jpg?crc=4128731178" src="images/blank.gif?crc=4208392903" alt="" data-width="521" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26457"><!-- image -->
+        <img class="ImageInclude" id="u26457_img" data-src="images/img_20181118_004959.jpg?crc=425118445" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26465"><!-- image -->
+        <img class="ImageInclude" id="u26465_img" data-src="images/img_20181118_010113.jpg?crc=3952613631" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26459"><!-- image -->
+        <img class="ImageInclude" id="u26459_img" data-src="images/img_20181118_010136.jpg?crc=394184345" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26477"><!-- image -->
+        <img class="ImageInclude" id="u26477_img" data-src="images/img_20181212_205416.jpg?crc=4002384660" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26437"><!-- image -->
+        <img class="ImageInclude" id="u26437_img" data-src="images/img_20181212_234950.jpg?crc=228576534" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26481"><!-- image -->
+        <img class="ImageInclude" id="u26481_img" data-src="images/img_20181212_235052.jpg?crc=151146596" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26469"><!-- image -->
+        <img class="ImageInclude" id="u26469_img" data-src="images/img_20190427_181021.jpg?crc=4039523621" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26451"><!-- image -->
+        <img class="ImageInclude" id="u26451_img" data-src="images/img_20190427_181025.jpg?crc=181485404" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26443"><!-- image -->
+        <img class="ImageInclude" id="u26443_img" data-src="images/img_20190427_211454.jpg?crc=480309901" src="images/blank.gif?crc=4208392903" alt="" data-width="663" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26433"><!-- image -->
+        <img class="ImageInclude" id="u26433_img" data-src="images/img_20190427_220928.jpg?crc=4023211637" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26479"><!-- image -->
+        <img class="ImageInclude" id="u26479_img" data-src="images/img_20190427_220937.jpg?crc=12653954" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26493"><!-- image -->
+        <img class="ImageInclude" id="u26493_img" data-src="images/losbks.jpg?crc=4104055190" src="images/blank.gif?crc=4208392903" alt="" data-width="663" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26489"><!-- image -->
+        <img class="ImageInclude" id="u26489_img" data-src="images/losbks2.jpg?crc=413574978" src="images/blank.gif?crc=4208392903" alt="" data-width="700" data-height="430"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26471"><!-- image -->
+        <img class="ImageInclude" id="u26471_img" data-src="images/losbks3.jpg?crc=313394854" src="images/blank.gif?crc=4208392903" alt="" data-width="700" data-height="467"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26427"><!-- image -->
+        <img class="ImageInclude" id="u26427_img" data-src="images/img19.jpg?crc=252972747" src="images/blank.gif?crc=4208392903" alt="" data-width="700" data-height="465"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26429"><!-- image -->
+        <img class="ImageInclude" id="u26429_img" data-src="images/img20.jpg?crc=3778592979" src="images/blank.gif?crc=4208392903" alt="" data-width="700" data-height="465"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26439"><!-- image -->
+        <img class="ImageInclude" id="u26439_img" data-src="images/img21.jpg?crc=234236606" src="images/blank.gif?crc=4208392903" alt="" data-width="700" data-height="465"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26441"><!-- image -->
+        <img class="ImageInclude" id="u26441_img" data-src="images/img25.jpg?crc=4144910485" src="images/blank.gif?crc=4208392903" alt="" data-width="298" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u26445"><!-- image -->
+        <img class="ImageInclude" id="u26445_img" data-src="images/img26.jpg?crc=387755289" src="images/blank.gif?crc=4208392903" alt="" data-width="298" data-height="497"/>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u26383-4popup">
+      <div class="SlideShowLabel SSSlideCount clearfix" id="u26383-4"><!-- content -->
+       <p>26 - 36</p>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u26421-4popup">
+      <div class="SSPreviousButton clearfix" id="u26421-4"><!-- content -->
+       <p>&lt;</p>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u26309-4popup">
+      <div class="SSNextButton clearfix" id="u26309-4"><!-- content -->
+       <p>&gt;</p>
+      </div>
+     </div>
+    </div>
+    <span class="colelem placeholder" data-placeholder-for="u21218_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="u38975"><!-- group -->
+     <img class="grpelem temp_no_id temp_no_img_src" alt="Síguenos en redes sociales" data-orig-src="images/u38976-62.png?crc=3765894094" data-image-width="219" data-orig-id="u38976-6" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.facebook.com/LosBKSFanPageOficial/" data-orig-id="u38977"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/logo%20fb.png?crc=511856112" alt="" data-image-width="79" data-image-height="79" data-orig-id="u38977_img" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.youtube.com/channel/UCUW2b7RxppNIKTc30rdLh0Q?" data-orig-id="u38979"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/logoyt.png?crc=3908855500" alt="" data-image-width="79" data-image-height="79" data-orig-id="u38979_img" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.instagram.com/LosBksOficial/" data-orig-id="u38981"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/logo%20instagram.png?crc=335431871" alt="" data-image-width="79" data-image-height="79" data-orig-id="u38981_img" src="images/blank.gif?crc=4208392903"/></a>
+    </div>
+    <div class="verticalspacer" data-offset-top="1194" data-content-above-spacer="1193" data-content-below-spacer="62"></div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_400" data-max-width="400"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu21019"><!-- group -->
+     <span class="clip_frame grpelem placeholder" data-placeholder-for="u21019_content"><!-- placeholder node --></span>
+     <div class="PamphletWidget clearfix grpelem" id="pamphletu37417"><!-- none box -->
+      <div class="popup_anchor" id="u37418popup">
+       <div class="ContainerGroup clearfix" id="u37418"><!-- stack box -->
+        <div class="Container invi clearfix grpelem" id="u37419"><!-- column -->
+         <a class="nonblock nontext colelem" id="u37422-4" href="index.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37422-4_img" alt="INICIO" data-orig-src="images/u37422-4.png?crc=3984438451" data-image-width="295" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u37424-4" href="grupo.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37424-4_img" alt="GRUPO" data-orig-src="images/u37424-4.png?crc=4082730111" data-image-width="295" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u37421-4" href="bio.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37421-4_img" alt="BIOGRAFÍAS" data-orig-src="images/u37421-4.png?crc=3916281763" data-image-width="295" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u37423-4" href="eventos.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37423-4_img" alt="CALENDARIO" data-orig-src="images/u37423-4.png?crc=80300839" data-image-width="295" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext MuseLinkActive colelem" id="u37425-4" href="fotos.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37425-4_img" alt="FOTOS" data-orig-src="images/u37425-4-a.png?crc=48125638" data-image-width="295" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u37420-4" href="videos.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37420-4_img" alt="VIDEOS" data-orig-src="images/u37420-4.png?crc=491026630" data-image-width="295" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext colelem" id="u37426-4" href="noticias.html"><!-- rasterized frame --><img class="temp_no_img_src" id="u37426-4_img" alt="NOTICIAS" data-orig-src="images/u37426-4.png?crc=107089446" data-image-width="295" src="images/blank.gif?crc=4208392903"/></a>
+        </div>
+       </div>
+      </div>
+      <div class="ThumbGroup clearfix grpelem" id="u37431"><!-- none box -->
+       <div class="popup_anchor" id="u37432popup">
+        <div class="Thumb popup_element clearfix" id="u37432"><!-- column -->
+         <div class="colelem" id="u37433"><!-- simple frame --></div>
+         <div class="colelem" id="u37435"><!-- simple frame --></div>
+         <div class="colelem" id="u37434"><!-- simple frame --></div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u37429popup">
+       <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u37429"><!-- group -->
+        <img class="grpelem temp_no_img_src" id="u37430-4" alt="x" data-orig-src="images/u37430-4.png?crc=299479740" data-image-width="60" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clip_frame colelem" id="u30272"><!-- image -->
+     <img class="block temp_no_img_src" id="u30272_img" data-orig-src="images/title_fotografias.png?crc=3914933359" alt="" data-image-width="235" data-image-height="88" src="images/blank.gif?crc=4208392903"/>
+    </div>
+    <img class="colelem temp_no_img_src" id="u30289-4" alt="En esta sección podrás encontrar las fotografías de nuestros ensayos, eventos y actividades con los medios de comunicación. ¿Tienes una foto con nosotros? Mándala y la ponemos en nuestro álbum virtual." data-orig-src="images/u30289-4.png?crc=4110793695" data-image-width="319" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+    <div class="SlideShowWidget clearfix HeroFitContent colelem" id="slideshowu34648"><!-- none box -->
+     <div class="popup_anchor" id="u34691popup">
+      <div class="SlideShowContentPanel clearfix" id="u34691"><!-- stack box -->
+       <div class="SSSlide clip_frame grpelem" id="u34762"><!-- image -->
+        <img class="ImageInclude" id="u34762_img" data-src="images/bks_tvnotas.jpg?crc=4128731178" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="381"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34706"><!-- image -->
+        <img class="ImageInclude" id="u34706_img" data-src="images/img_20181118_004959.jpg?crc=425118445" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34708"><!-- image -->
+        <img class="ImageInclude" id="u34708_img" data-src="images/img_20181118_010113.jpg?crc=3952613631" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34712"><!-- image -->
+        <img class="ImageInclude" id="u34712_img" data-src="images/img_20181118_010136.jpg?crc=394184345" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34746"><!-- image -->
+        <img class="ImageInclude" id="u34746_img" data-src="images/img_20181212_205416.jpg?crc=4002384660" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34696"><!-- image -->
+        <img class="ImageInclude" id="u34696_img" data-src="images/img_20181212_234950.jpg?crc=228576534" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34720"><!-- image -->
+        <img class="ImageInclude" id="u34720_img" data-src="images/img_20181212_235052.jpg?crc=151146596" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34730"><!-- image -->
+        <img class="ImageInclude" id="u34730_img" data-src="images/img_20190427_181021.jpg?crc=4039523621" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34692"><!-- image -->
+        <img class="ImageInclude" id="u34692_img" data-src="images/img_20190427_181025.jpg?crc=181485404" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34752"><!-- image -->
+        <img class="ImageInclude" id="u34752_img" data-src="images/img_20190427_211454.jpg?crc=480309901" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="300"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34756"><!-- image -->
+        <img class="ImageInclude" id="u34756_img" data-src="images/img_20190427_220928.jpg?crc=4023211637" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34726"><!-- image -->
+        <img class="ImageInclude" id="u34726_img" data-src="images/img_20190427_220937.jpg?crc=12653954" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34740"><!-- image -->
+        <img class="ImageInclude" id="u34740_img" data-src="images/img-20190427-wa0010.jpg?crc=387755289" src="images/blank.gif?crc=4208392903" alt="" data-width="298" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34742"><!-- image -->
+        <img class="ImageInclude" id="u34742_img" data-src="images/losbks.jpg?crc=4104055190" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="300"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34716"><!-- image -->
+        <img class="ImageInclude" id="u34716_img" data-src="images/losbks2.jpg?crc=413574978" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="246"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34736"><!-- image -->
+        <img class="ImageInclude" id="u34736_img" data-src="images/losbks3.jpg?crc=313394854" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34760"><!-- image -->
+        <img class="ImageInclude" id="u34760_img" data-src="images/bks_tvnotas.jpg?crc=4128731178" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="381"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34754"><!-- image -->
+        <img class="ImageInclude" id="u34754_img" data-src="images/img_20181118_004959.jpg?crc=425118445" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34734"><!-- image -->
+        <img class="ImageInclude" id="u34734_img" data-src="images/img_20181118_010113.jpg?crc=3952613631" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34750"><!-- image -->
+        <img class="ImageInclude" id="u34750_img" data-src="images/img_20181118_010136.jpg?crc=394184345" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34702"><!-- image -->
+        <img class="ImageInclude" id="u34702_img" data-src="images/img_20181212_205416.jpg?crc=4002384660" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34722"><!-- image -->
+        <img class="ImageInclude" id="u34722_img" data-src="images/img_20181212_234950.jpg?crc=228576534" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34758"><!-- image -->
+        <img class="ImageInclude" id="u34758_img" data-src="images/img_20181212_235052.jpg?crc=151146596" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34738"><!-- image -->
+        <img class="ImageInclude" id="u34738_img" data-src="images/img_20190427_181021.jpg?crc=4039523621" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34710"><!-- image -->
+        <img class="ImageInclude" id="u34710_img" data-src="images/img_20190427_181025.jpg?crc=181485404" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34732"><!-- image -->
+        <img class="ImageInclude" id="u34732_img" data-src="images/img_20190427_211454.jpg?crc=480309901" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="300"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34714"><!-- image -->
+        <img class="ImageInclude" id="u34714_img" data-src="images/img_20190427_220928.jpg?crc=4023211637" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34728"><!-- image -->
+        <img class="ImageInclude" id="u34728_img" data-src="images/img_20190427_220937.jpg?crc=12653954" src="images/blank.gif?crc=4208392903" alt="" data-width="373" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34718"><!-- image -->
+        <img class="ImageInclude" id="u34718_img" data-src="images/losbks.jpg?crc=4104055190" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="300"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34698"><!-- image -->
+        <img class="ImageInclude" id="u34698_img" data-src="images/losbks2.jpg?crc=413574978" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="246"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34748"><!-- image -->
+        <img class="ImageInclude" id="u34748_img" data-src="images/losbks3.jpg?crc=313394854" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34704"><!-- image -->
+        <img class="ImageInclude" id="u34704_img" data-src="images/img19.jpg?crc=252972747" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="266"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34700"><!-- image -->
+        <img class="ImageInclude" id="u34700_img" data-src="images/img20.jpg?crc=3778592979" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="266"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34744"><!-- image -->
+        <img class="ImageInclude" id="u34744_img" data-src="images/img21.jpg?crc=234236606" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="266"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34724"><!-- image -->
+        <img class="ImageInclude" id="u34724_img" data-src="images/img25.jpg?crc=4144910485" src="images/blank.gif?crc=4208392903" alt="" data-width="298" data-height="497"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u34694"><!-- image -->
+        <img class="ImageInclude" id="u34694_img" data-src="images/img26.jpg?crc=387755289" src="images/blank.gif?crc=4208392903" alt="" data-width="298" data-height="497"/>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u34764-4popup">
+      <div class="SlideShowLabel SSSlideCount clearfix" id="u34764-4"><!-- content -->
+       <p>35 - 36</p>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u34650-4popup">
+      <div class="SSPreviousButton clearfix" id="u34650-4"><!-- content -->
+       <p>&lt;</p>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u34649-4popup">
+      <div class="SSNextButton clearfix" id="u34649-4"><!-- content -->
+       <p>&gt;</p>
+      </div>
+     </div>
+    </div>
+    <span class="colelem placeholder" data-placeholder-for="u21218_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="u38975"><!-- column -->
+     <img class="colelem temp_no_id temp_no_img_src" alt="Síguenos en redes sociales" data-orig-src="images/u38976-63.png?crc=4121483991" data-image-width="250" data-orig-id="u38976-6" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     <div class="clearfix colelem" id="pu38977"><!-- group -->
+      <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.facebook.com/LosBKSFanPageOficial/" data-orig-id="u38977"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/logo%20fb.png?crc=511856112" alt="" data-image-width="71" data-image-height="71" data-orig-id="u38977_img" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.youtube.com/channel/UCUW2b7RxppNIKTc30rdLh0Q?" data-orig-id="u38979"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/logoyt.png?crc=3908855500" alt="" data-image-width="71" data-image-height="71" data-orig-id="u38979_img" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.instagram.com/LosBksOficial/" data-orig-id="u38981"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/logo%20instagram.png?crc=335431871" alt="" data-image-width="71" data-image-height="71" data-orig-id="u38981_img" src="images/blank.gif?crc=4208392903"/></a>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="1247" data-content-above-spacer="1246" data-content-below-spacer="62"></div>
+   </div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -30,12 +567,18 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Puede que determinados archivos falten en el servidor o sean incorrectos. Limpie la cache del navegador e inténtelo de nuevo. Si el problema persiste, póngase en contacto con el administrador del sitio web.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.initWidget('#pamphletu37584', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu37584 */
+Muse.Utils.initWidget('#slideshowu30298', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu30298 */
+Muse.Utils.initWidget('#pamphletu21036', ['#bp_700'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu21036 */
+Muse.Utils.initWidget('#slideshowu26304', ['#bp_700'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu26304 */
+Muse.Utils.initWidget('#pamphletu37417', ['#bp_400'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu37417 */
+Muse.Utils.initWidget('#slideshowu34648', ['#bp_400'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu34648 */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
