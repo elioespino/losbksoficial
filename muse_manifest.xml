@@ -1,9 +1,12 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.losbksoficial.com" resolutions="1x" timestamp="1559881372961">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="www.losbksoficial.com" resolutions="1x" timestamp="1563428491963">
+  <folder name="assets">
+    <file name="170719_huejotzingo.pdf" crc="445920431" seo="true" mt="1563425461000"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="index.css" crc="4069185784" ref="index"/>
     <file name="nomq_index.css" crc="3765083381" ref="index"/>
-    <file name="eventos.css" crc="266126660" ref="eventos"/>
+    <file name="eventos.css" crc="535907408" ref="eventos"/>
     <file name="videos.css" crc="3786159015" ref="videos"/>
     <file name="grupo.css" crc="345957040" ref="grupo"/>
     <file name="fotos.css" crc="143844724" ref="fotos"/>
@@ -13,25 +16,27 @@
     <file name="nomq_videos.css" crc="311881448" ref="videos"/>
     <file name="nomq_bio.css" crc="410398183" ref="bio"/>
     <file name="nomq_noticias.css" crc="4267047306" ref="noticias"/>
-    <file name="nomq_eventos.css" crc="442262319" ref="eventos"/>
+    <file name="nomq_eventos.css" crc="4123963277" ref="eventos"/>
     <file name="nomq_fotos.css" crc="4045852188" ref="fotos"/>
+    <file name="comunicados.css" crc="468326236" ref="comunicados"/>
+    <file name="nomq_comunicados.css" crc="505294330" ref="comunicados"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="museutils.js" crc="163421577" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="whatinput.js" crc="86476730" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="museconfig.js" crc="168988563" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="jquery.watch.js" crc="104486786" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="require.js" crc="244322403" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="jquery.museresponsive.js" crc="4146931122" ref="index:grupo:bio:videos:noticias:eventos:fotos"/>
-    <file name="webpro.js" crc="3848665353" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="musewpslideshow.js" crc="4041717617" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="jquery.museoverlay.js" crc="36492500" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="touchswipe.js" crc="404375771" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="museutils.js" crc="163421577" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="whatinput.js" crc="86476730" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="museconfig.js" crc="168988563" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="require.js" crc="244322403" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="jquery.museresponsive.js" crc="4146931122" ref="index:grupo:bio:videos:noticias:eventos:fotos:comunicados"/>
+    <file name="webpro.js" crc="3848665353" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="touchswipe.js" crc="404375771" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="grupo:bio"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index:grupo:bio:fotos:videos:noticias:eventos"/>
+    <file name="blank.gif" crc="4208392903" ref="index:grupo:bio:fotos:videos:noticias:eventos:comunicados"/>
     <file name="home_image_up-crop-u4788.png" crc="4266042258" ref="index"/>
     <file name="store_googleplay.png" crc="3802827792" seo="true" ref="index"/>
     <file name="store_deezer.png" crc="3778102355" seo="true" ref="index"/>
@@ -82,7 +87,7 @@
     <file name="u14572-4.png" crc="3869819308" ref="index"/>
     <file name="u14576-4.png" crc="523919361" ref="index"/>
     <file name="u14566-4.png" crc="4189676278" ref="index"/>
-    <file name="losbks_logo_title.png" crc="216866545" seo="true" ref="grupo:bio:eventos:fotos:videos:noticias"/>
+    <file name="losbks_logo_title.png" crc="216866545" seo="true" ref="grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
     <file name="title_grupo.png" crc="128852117" seo="true" ref="grupo"/>
     <file name="losbks04.jpg" crc="4095762880" ref="grupo"/>
     <file name="u15129-18.png" crc="457160955" ref="grupo"/>
@@ -156,9 +161,7 @@
     <file name="u19182-4.png" crc="4005726815" ref="bio"/>
     <file name="u19175-4.png" crc="4126475056" ref="bio"/>
     <file name="title_calendario-crop-u19551.png" crc="4005809556" ref="eventos"/>
-    <file name="u19571-4.png" crc="3904100647" ref="eventos"/>
-    <file name="u19574-4.png" crc="3774786083" ref="eventos"/>
-    <file name="u19575-5.png" crc="3977767746" ref="eventos"/>
+    <file name="u19574-4.png" crc="3856490973" ref="eventos"/>
     <file name="u19735-4.png" crc="277026193" ref="eventos"/>
     <file name="u19785-4.png" crc="61082160" ref="eventos"/>
     <file name="u19784-4.png" crc="262481590" ref="eventos"/>
@@ -283,7 +286,7 @@
     <file name="u24562.png" crc="3944084788" ref="noticias"/>
     <file name="u24562-r.png" crc="3853789959" ref="noticias"/>
     <file name="u24562-a.png" crc="3944084788" ref="noticias"/>
-    <file name="favicon.ico" crc="140864763" ref="index"/>
+    <file name="favicon.ico" crc="140864763" ref="index:eventos"/>
     <file name="homemusicabks_1200_sinsin.jpg" crc="11485533" seo="true" ref="index"/>
     <file name="homemusicabks_1200_sinsin700x475.jpg" crc="452612018" seo="true" ref="index"/>
     <file name="homemusicabks_1200_sinsin520x353.jpg" crc="15402005" seo="true" ref="index"/>
@@ -291,10 +294,6 @@
     <file name="bio_josejavier 400contxt.png" crc="477586706" seo="true" ref="bio"/>
     <file name="bio_eusebio_400txt.png" crc="3819993002" seo="true" ref="bio"/>
     <file name="bio_pedrosan 400contxt.png" crc="189362488" seo="true" ref="bio"/>
-    <file name="evento 08 junio 2019.jpg" crc="4128639277" seo="true" ref="eventos"/>
-    <file name="evento 07 junio 2019.jpg" crc="120031363" seo="true" ref="eventos"/>
-    <file name="u37931-6.png" crc="356859036" ref="eventos"/>
-    <file name="u37928-6.png" crc="156586758" ref="eventos"/>
     <file name="u38122-4.png" crc="312445248" ref="eventos"/>
     <file name="title_calendario-crop-u195512.png" crc="3767218693" ref="eventos"/>
     <file name="u19785-42.png" crc="61082160" ref="eventos"/>
@@ -305,9 +304,6 @@
     <file name="u19786-42.png" crc="462679369" ref="eventos"/>
     <file name="u19781-42.png" crc="4201581252" ref="eventos"/>
     <file name="u19788-42.png" crc="299479740" ref="eventos"/>
-    <file name="u37999-4.png" crc="530515476" ref="eventos"/>
-    <file name="u37931-62.png" crc="315078004" ref="eventos"/>
-    <file name="u37928-62.png" crc="460661826" ref="eventos"/>
     <file name="u38001-4.png" crc="3774786083" ref="eventos"/>
     <file name="u38004-5.png" crc="155697636" ref="eventos"/>
     <file name="u37598-4.png" crc="61082160" ref="fotos"/>
@@ -335,18 +331,14 @@
     <file name="u30289-4.png" crc="4110793695" ref="fotos"/>
     <file name="u38215-4.png" crc="31075163" ref="videos"/>
     <file name="u38251-4.png" crc="483068906" ref="videos"/>
-    <file name="u38295-6.png" crc="3862475313" ref="eventos"/>
-    <file name="003 evento 09 junio 2019.jpg" crc="3778105410" seo="true" ref="eventos"/>
     <file name="u38363-6.png" crc="40271661" ref="eventos"/>
-    <file name="004 evento 06 julio tlaquepaque.jpg" crc="4084021550" seo="true" ref="eventos"/>
-    <file name="u19575-52.png" crc="155697636" ref="eventos"/>
-    <file name="u38309-6.png" crc="246394063" ref="eventos"/>
+    <file name="004 evento 06 julio tlaquepaque.jpg" crc="411446716" seo="true" ref="eventos"/>
     <file name="u38001-42.png" crc="160321139" ref="eventos"/>
     <file name="u38381-6.png" crc="305996662" ref="eventos"/>
     <file name="u38419-6.png" crc="3902178546" ref="index"/>
-    <file name="logo fb.png" crc="511856112" seo="true" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="logoyt.png" crc="3908855500" seo="true" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
-    <file name="logo instagram.png" crc="335431871" seo="true" ref="index:grupo:bio:eventos:fotos:videos:noticias"/>
+    <file name="logo fb.png" crc="511856112" seo="true" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="logoyt.png" crc="3908855500" seo="true" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
+    <file name="logo instagram.png" crc="335431871" seo="true" ref="index:grupo:bio:eventos:fotos:videos:noticias:comunicados"/>
     <file name="u38419-62.png" crc="306344747" ref="index"/>
     <file name="u38419-63.png" crc="3776433361" ref="index"/>
     <file name="u38419-64.png" crc="170795884" ref="index"/>
@@ -367,12 +359,39 @@
     <file name="u39205-6.png" crc="3857521514" ref="noticias"/>
     <file name="u39205-62.png" crc="4161607140" ref="noticias"/>
     <file name="u39205-63.png" crc="3896991680" ref="noticias"/>
+    <file name="004 evento 06 julio tlaquepaque275x409.jpg" crc="262822365" seo="true" ref="eventos"/>
+    <file name="u39320-6.png" crc="3942109530" ref="eventos"/>
+    <file name="ad_aguascalientes-crop-u39286.jpg" crc="4039471606" ref="eventos"/>
+    <file name="u39298-6.png" crc="277652725" ref="eventos"/>
+    <file name="ad_aguascalientes-crop-u392862.jpg" crc="4292011625" ref="eventos"/>
+    <file name="title_comunicados.png" crc="3875389771" seo="true" ref="comunicados"/>
+    <file name="u39571-4.png" crc="61082160" ref="comunicados"/>
+    <file name="u39570-4.png" crc="262481590" ref="comunicados"/>
+    <file name="u39569-4.png" crc="4226881067" ref="comunicados"/>
+    <file name="u39568-4.png" crc="478850889" ref="comunicados"/>
+    <file name="u39566-4.png" crc="336607867" ref="comunicados"/>
+    <file name="u39572-4.png" crc="462679369" ref="comunicados"/>
+    <file name="u39567-4.png" crc="4201581252" ref="comunicados"/>
+    <file name="u39574-4.png" crc="299479740" ref="comunicados"/>
+    <file name="170719_huejotzingo.jpg" crc="529888022" seo="true" ref="comunicados"/>
+    <file name="u39685-6.png" crc="3857521514" ref="comunicados"/>
+    <file name="u39571-42.png" crc="61082160" ref="comunicados"/>
+    <file name="u39570-42.png" crc="262481590" ref="comunicados"/>
+    <file name="u39569-42.png" crc="4226881067" ref="comunicados"/>
+    <file name="u39568-42.png" crc="478850889" ref="comunicados"/>
+    <file name="u39566-42.png" crc="336607867" ref="comunicados"/>
+    <file name="u39572-42.png" crc="462679369" ref="comunicados"/>
+    <file name="u39567-42.png" crc="4201581252" ref="comunicados"/>
+    <file name="u39574-42.png" crc="299479740" ref="comunicados"/>
+    <file name="170719_huejotzingo488x632.jpg" crc="3840608684" seo="true" ref="comunicados"/>
+    <file name="u39685-62.png" crc="4161607140" ref="comunicados"/>
   </folder>
   <file name="index.html" crc="144440395" seo="true" mt="1559879337417" redirect="true"/>
   <file name="grupo.html" crc="287894207" seo="true" mt="1559879707543" redirect="true"/>
   <file name="bio.html" crc="491398107" seo="true" mt="1559879997198" redirect="true"/>
-  <file name="eventos.html" crc="324107405" seo="true" mt="1559880268848" redirect="true"/>
+  <file name="eventos.html" crc="240434060" seo="true" mt="1563428318565" redirect="true"/>
   <file name="fotos.html" crc="25193715" seo="true" mt="1559880670860" redirect="true"/>
   <file name="videos.html" crc="4283172210" seo="true" mt="1559880933526" redirect="true"/>
   <file name="noticias.html" crc="3815381159" seo="true" mt="1559881144919" redirect="true"/>
+  <file name="comunicados.html" crc="4260673872" seo="true" mt="1563428396454" redirect="true"/>
 </manifest>
